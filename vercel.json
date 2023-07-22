@@ -1,0 +1,13 @@
+{
+    "bulids":[{
+       "src": "ExpenseTracker/wsgi.py",
+       "use": "@vercel/python",
+      
+    }],
+    "routes": [
+      {
+         "src": "/(.*)",
+         "dest": "ExpenseTracker/wsgi.py"
+      }
+    ]    
+}  
